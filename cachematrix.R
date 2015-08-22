@@ -1,3 +1,10 @@
+## Coursera - R Programming (2015-Aug)
+## Based on the source code provided by Roger D. Peng through
+## GitHub repository (https://github.com/rdpeng/ProgrammingAssignment2) and
+## on the "cachemean" example by Roger D. Peng.
+## 
+## Programming assignment #2
+## 
 ## Functions for creating a matrix and handling a cached version of its inverse
 ## 
 
@@ -22,7 +29,7 @@ makeCacheMatrix <- function(x = matrix())
 ## Uses the cached version of the matrix and or set it if the cached version is not available, yet.
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+    ## Return a matrix that is the inverse of 'x'
     res <- x$getInverse()
     if(!is.null(res)) {
         message("returning cached inverse")
