@@ -1,14 +1,12 @@
-## Coursera - R Programming (2015-Aug)
+## Coursera - R Programming (2015-Nov)
 ## Based on the source code provided by Roger D. Peng through
 ## GitHub repository (https://github.com/rdpeng/ProgrammingAssignment2) and
 ## on the "cachemean" example by Roger D. Peng.
 ## 
 ## Programming assignment #2
 ## 
-## Functions for creating a matrix and handling a cached version of its inverse
-## 
 
-## Creates the matrix object with its attributes and methods (OO-like).
+## Creates a matrix object with its attributes
 
 makeCacheMatrix <- function(x = matrix()) 
 {
